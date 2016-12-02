@@ -2,7 +2,7 @@
 
 ###Error1:
 -> If you are getting the error "cannot open shared object file: No such file or directory"
-  ```
+  ```shell
   $>./app_name
   $>error while loading shared libraries: app_lib.so.11: cannot open shared object file: No such file or directory
   ```
