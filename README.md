@@ -1,11 +1,11 @@
 # Linux Error
 
-Error1:
+###Error1:
 -> If you are getting the error "cannot open shared object file: No such file or directory"
   $>./app_name
   $>error while loading shared libraries: app_lib.so.11: cannot open shared object file: No such file or directory
 
-Solution1:
+###Solution1:
 ->Search app_lib.so.11 file in the computer 
     $>find / |grep "app_lib.so.11"
     $>/usr/local/lib/app_lib.so.11
