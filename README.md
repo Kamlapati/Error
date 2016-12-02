@@ -9,9 +9,8 @@
 
 ###Solution1:
 ->Search app_lib.so.11 file in the computer 
-
-    ```shell
-    $>find / |grep \"app_lib.so.11\"
+   ```shell
+    $>find / |grep "app_lib.so.11"
     $>/usr/local/lib/app_lib.so.11
     ```
 ->Check the existence of the path (in my case "/usr/local/lib/") present in the dynamic library path environnement 
