@@ -12,7 +12,7 @@
    ```shell
     $>find / |grep "app_lib.so.11"
     $>/usr/local/lib/app_lib.so.11
-    ```
+   ```
 ->Check the existence of the path (in my case "/usr/local/lib/") present in the dynamic library path environnement 
 ```shell
   $> echo $LD_LIBRARY_PATH
